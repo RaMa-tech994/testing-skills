@@ -1,0 +1,4 @@
+interface:
+  display_name: "Indėlių palūkanos"
+  short_description: "Palygina 5 geriausius 6 mėn. bankų indėlius"
+  default_prompt: "Atverk indeliai.lt ir pateik 5 bankus su didžiausiomis 6 mėn. EUR terminuoto indėlio palūkanomis bei jų sąlygomis."
