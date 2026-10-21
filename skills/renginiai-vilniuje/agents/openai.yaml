@@ -1,4 +1,4 @@
 interface:
   display_name: "Renginiai Vilniuje"
-  short_description: "Randa iki 20 Vilniaus renginių be parodų"
-  default_prompt: "Atverk vilnius-events.lt ir pateik iki 20 renginių Vilniuje nurodytai datai, nenurodydamas parodų; pateik laiką, vietą, kainą ir nuorodą."
+  short_description: "Randa Vilniaus renginius be parodų ir vaikų renginių"
+  default_prompt: "Atverk vilnius-events.lt ir pateik iki 20 renginių Vilniuje nurodytai datai, neįtraukdamas parodų ir vaikams skirtų spektaklių, koncertų ar kitų renginių; nurodyk laiką, vietą, kainą ir nuorodą."
