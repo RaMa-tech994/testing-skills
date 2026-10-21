@@ -1,0 +1,23 @@
+{
+  "skill_name": "renginiai-vilniuje",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Panaudok renginiai-vilniuje ir surask iki 20 renginių Vilniuje 2026 m. spalio 24 d.",
+      "expected_output": "Sąrašas sudarytas iš vilnius-events.lt, pateikiami tik spalio 24 d. Vilniuje vykstantys renginiai be parodų; kiekvienam pateiktas pavadinimas, laikas, vieta, kaina ir šaltinio nuoroda. Nežinomi duomenys pažymėti, o ne išgalvoti.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Kokie nemokami koncertai ir spektakliai Vilniuje vyks šį savaitgalį? Neįtrauk parodų.",
+      "expected_output": "Renginiai patikrinti vilnius-events.lt, apriboti nurodytu savaitgaliu, atrinkti nemokami koncertai ir spektakliai Vilniuje; pateikti laikas, vieta, kaina ir nuorodos. Jei data ar savaitgalis dviprasmiškas, naudojama dabartinė data arba paprašoma patikslinti.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Surask artimiausius renginius Vilniuje ir nurodyk, kur jie vyksta bei kiek kainuoja.",
+      "expected_output": "Pateikiama iki 20 artimiausių būsimų renginių iš vilnius-events.lt, išskyrus parodas; sąrašas surikiuotas pagal laiką, trūkstama kaina ar vieta pažymėta „nenurodyta“, šaltinis susietas nuoroda.",
+      "files": []
+    }
+  ]
+}
