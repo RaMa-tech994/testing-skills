@@ -1,0 +1,23 @@
+{
+  "skill_name": "indeliu-palukanos",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Nueik į indeliai.lt ir palygink penkis bankus su didžiausiomis 6 mėnesių EUR terminuoto indėlio palūkanomis. Pateik normas, minimalią sumą ir sąlygas.",
+      "expected_output": "Pateiktas aktualus penkių bankų reitingas, surikiuotas pagal 6 mėn. EUR terminuoto indėlio metinę normą; kiekvienam nurodyta minimali suma, pasiūlymo sąlygos, šaltinio nuoroda ir patikrinimo data.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Kur Lietuvoje dabar geriausios 6 mėn. indėlio palūkanos? Tik bankai, ne kredito unijos, ir parašyk, ar galima nutraukti anksčiau.",
+      "expected_output": "Į reitingą įtraukti tik bankų privatūs EUR terminuoti pasiūlymai; ankstyvo nutraukimo sąlygos patikrintos šaltinyje arba aiškiai pažymėtos kaip nerastos.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Sudaryk 6 mėnesių indėlių palūkanų top 5 iš indeliai.lt ir įtrauk verslo pasiūlymus tik jei jie aiškiai atskirti nuo privačių klientų pasiūlymų.",
+      "expected_output": "Pateiktas penkių bankų palyginimas; verslo pasiūlymai atskirti ir nevaizduojami kaip privatiems klientams prieinami. Nepatikrintos sąlygos neišgalvojamos.",
+      "files": []
+    }
+  ]
+}
