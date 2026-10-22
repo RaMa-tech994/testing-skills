@@ -1,4 +1,4 @@
 interface:
   display_name: "Veiklos apžvalga – duomenys"
-  short_description: "Randa įmonę Okredo ir apžvelgia finansinius rodiklius"
-  default_prompt: "Surask mano nurodytą įmonę Okredo svetainėje ir pateik jos finansinius rodiklius bei veiklos tendencijų apžvalgą."
+  short_description: "Suranda įmonę Okredo ir surenka finansinius rodiklius"
+  default_prompt: "Surask mano nurodytą įmonę Okredo ir pateik patikrintus finansinius rodiklius su metais, valiuta ir šaltiniu."
