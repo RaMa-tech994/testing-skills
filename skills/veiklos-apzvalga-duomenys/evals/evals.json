@@ -4,13 +4,13 @@
     {
       "id": 1,
       "prompt": "Okredo surask UAB Okredo ir pateik jos naujausius finansinius rodiklius bei pajamų ir grynojo pelno pokyčius pagal metus.",
-      "expected_output": "Teisingai identifikuoja įmonę pagal pavadinimą ir kodą, surenka tik patikrintus Okredo finansų skilties rodiklius, palygina prieinamus metus, pateikia profilio nuorodą ir pažymi duomenų ribotumus.",
+      "expected_output": "Teisingai identifikuoja įmonę pagal pavadinimą ir kodą, surenka tik patikrintus Okredo finansų skilties rodiklius, pateikia metus, valiutą, profilio nuorodą ir duomenų ribotumus. Neatlieka finansinių tendencijų analizės ar galutinės veiklos apžvalgos.",
       "files": []
     },
     {
       "id": 2,
       "prompt": "Patikrink įmonę pagal kodą 304106783 Okredo sistemoje ir trumpai apžvelk finansinę istoriją.",
-      "expected_output": "Naudoja kodą kaip pagrindinį identifikatorių, patvirtina įmonės pavadinimą, pateikia finansinius rodiklius su metais ir šaltinio nuoroda, neišgalvoja trūkstamų duomenų.",
+      "expected_output": "Naudoja kodą kaip pagrindinį identifikatorių, patvirtina įmonės pavadinimą, pateikia finansinius rodiklius su metais ir šaltinio nuoroda, neišgalvoja trūkstamų duomenų ir neinterpretuoja tendencijų.",
       "files": []
     },
     {
