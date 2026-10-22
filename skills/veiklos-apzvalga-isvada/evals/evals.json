@@ -1,0 +1,23 @@
+{
+  "skill_name": "veiklos-apzvalga-isvada",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Pagal duomenis ir analizę parenk galutinę santrauką: pajamos išaugo nuo 1 000 000 Eur iki 1 200 000 Eur, o grynasis pelnas sumažėjo nuo 100 000 Eur iki 60 000 Eur.",
+      "expected_output": "Pateikia struktūruotą santrauką su rodiklių lentele, pabrėžia, kad pajamos augo, bet pelnas sumažėjo, ir aiškiai atskiria faktus nuo interpretacijos.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Sujunk Okredo duomenis ir analizę į galutinę išvadą. Trūksta 2022 m. duomenų, o įmonės profilio nuoroda pateikta.",
+      "expected_output": "Nurodo trūkstamus metus kaip apribojimą, pateikia prieinamą šaltinio nuorodą ir nedaro išvadų apie tendencijas, kurių negalima patikrinti.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Parenk galutinę įmonės veiklos apžvalgą, bet duomenų surinkimo ir analizės rezultatai tarpusavyje nesutampa dėl 2024 m. grynojo pelno.",
+      "expected_output": "Aiškiai pažymi neatitikimą, nepasirenka nepagrįstos reikšmės ir paprašo patikrinti pirminį šaltinį prieš pateikiant galutinę patvirtintą išvadą.",
+      "files": []
+    }
+  ]
+}
