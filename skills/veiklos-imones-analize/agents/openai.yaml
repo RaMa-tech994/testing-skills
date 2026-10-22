@@ -1,0 +1,4 @@
+interface:
+  display_name: "Veiklos įmonės analizė"
+  short_description: "Nuosekliai paleidžia tris įmonės finansų analizės įgūdžius"
+  default_prompt: "Atlik visą įmonės veiklos analizės workflow: surink Okredo finansinius duomenis, išanalizuok tendencijas ir pateik struktūruotą galutinę išvadą."
