@@ -1,0 +1,23 @@
+{
+  "skill_name": "veiklos-apzvalga-analize",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Išanalizuok šiuos įmonės duomenis: pajamos 2023 m. 1 000 000 Eur, 2024 m. 1 200 000 Eur; grynasis pelnas 2023 m. 100 000 Eur, 2024 m. 60 000 Eur. Pateik pokyčius ir trumpą veiklos apžvalgą.",
+      "expected_output": "Teisingai apskaičiuoja pajamų ir pelno pokyčius, pastebi kad pajamos augo, o pelnas sumažėjo, atskiria faktus nuo interpretacijos ir nepateikia nepagrįstų išvadų.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Pagal surinktus Okredo finansinius rodiklius parenk įmonės veiklos apžvalgą. Duomenys: 2022 m. grynasis nuostolis -20 000 Eur, 2023 m. grynasis pelnas 15 000 Eur. Pajamų duomenų nėra.",
+      "expected_output": "Paaiškina perėjimą iš nuostolio į pelną absoliučiais dydžiais, vengia klaidinančio procentinio pokyčio, pažymi, kad pajamų tendencijos įvertinti negalima, nes trūksta duomenų.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Paruošk įmonės finansinę apžvalgą, bet pateikti tik 2024 m. pajamų duomenys – 500 000 Eur. Nėra ankstesnių metų ar pelno duomenų.",
+      "expected_output": "Pateikia tik ribotą faktinę apžvalgą, nurodo duomenų trūkumą ir nepateikia nepagrįstų augimo, pelningumo ar stabilumo išvadų.",
+      "files": []
+    }
+  ]
+}
