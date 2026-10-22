@@ -1,0 +1,23 @@
+{
+  "skill_name": "veiklos-apzvalga-duomenys",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Okredo surask UAB Okredo ir pateik jos naujausius finansinius rodiklius bei pajamų ir grynojo pelno pokyčius pagal metus.",
+      "expected_output": "Teisingai identifikuoja įmonę pagal pavadinimą ir kodą, surenka tik patikrintus Okredo finansų skilties rodiklius, palygina prieinamus metus, pateikia profilio nuorodą ir pažymi duomenų ribotumus.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Patikrink įmonę pagal kodą 304106783 Okredo sistemoje ir trumpai apžvelk finansinę istoriją.",
+      "expected_output": "Naudoja kodą kaip pagrindinį identifikatorių, patvirtina įmonės pavadinimą, pateikia finansinius rodiklius su metais ir šaltinio nuoroda, neišgalvoja trūkstamų duomenų.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Surask Okredo įmonę „Baltic Example“ ir atsiųsk jos finansinius rodiklius.",
+      "expected_output": "Jei įmonės identifikuoti nepavyksta arba yra keli atitikmenys, nekuria fiktyvių finansų; paprašo įmonės kodo arba pateikia nepatvirtintus atitikmenis kaip tokius.",
+      "files": []
+    }
+  ]
+}
