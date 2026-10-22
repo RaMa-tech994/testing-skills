@@ -1,0 +1,4 @@
+interface:
+  display_name: "Veiklos apžvalga – analizė"
+  short_description: "Analizuoja įmonės finansus ir parengia veiklos apžvalgą"
+  default_prompt: "Išanalizuok įmonės finansinius rodiklius, palygink metus ir pateik pagrįstą veiklos apžvalgą su šaltiniais."
