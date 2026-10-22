@@ -1,0 +1,4 @@
+interface:
+  display_name: "Veiklos apžvalga – išvada"
+  short_description: "Sujungia finansinius duomenis ir analizę į struktūruotą išvadą"
+  default_prompt: "Pagal surinktus įmonės finansinius rodiklius ir jų analizę parenk struktūruotą veiklos santrauką su pagrindinėmis išvadomis, dėmesio signalais ir šaltiniais."
