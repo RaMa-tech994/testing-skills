@@ -1,13 +1,13 @@
 ---
 name: veiklos-apzvalga-duomenys
-description: Suranda vartotojo nurodytą Lietuvos įmonę Okredo svetainėje ir pateikia jos finansinius rodiklius bei jų apžvalgą. Naudok kiekvieną kartą, kai prašoma patikrinti įmonės finansus, pajamas, pelną, turtą, įsipareigojimus, pelningumą ar finansinę istoriją per Okredo.com/lt, taip pat kai prašoma įmonės veiklos apžvalgos pagal Okredo duomenis.
+description: Suranda vartotojo nurodytą Lietuvos įmonę Okredo svetainėje ir surenka jos finansinius rodiklius, bet jų neanalizuoja ir nerengia galutinės veiklos apžvalgos. Naudok, kai prašoma rasti Okredo įmonės profilį, ištraukti ar surinkti finansinius duomenis, pajamas, pelną, turtą, įsipareigojimus ar istorinius finansinius rodiklius.
 ---
 
-# Įmonės veiklos apžvalga ir finansiniai duomenys iš Okredo
+# Įmonės finansinių duomenų surinkimas iš Okredo
 
 ## Tikslas
 
-Pagal vartotojo užklausoje pateiktą įmonės pavadinimą arba įmonės kodą surask įmonės profilį Okredo Lietuvos svetainėje ir iš jo skilties apie finansus / finansinius rodiklius ištrauk prieinamus duomenis. Pateik aiškią, šaltiniu pagrįstą lietuvišką apžvalgą.
+Pagal vartotojo užklausoje pateiktą įmonės pavadinimą arba įmonės kodą surask tinkamą įmonės profilį Okredo Lietuvos svetainėje ir surink jame matomus finansinius rodiklius. Šis įgūdis atsakingas tik už paiešką, duomenų ištraukimą ir patikrinimą. Finansinių tendencijų interpretavimą, analizę ir galutinės veiklos apžvalgos rašymą atlieka atskiras įgūdis `veiklos-apzvalga-analize`.
 
 ## Darbo eiga
 
@@ -20,62 +20,30 @@ Pagal vartotojo užklausoje pateiktą įmonės pavadinimą arba įmonės kodą s
 2. **Rask finansinius rodiklius.**
    - Įmonės profilyje surask atskirą skiltį „Finansai“, „Finansiniai rodikliai“, finansinių duomenų ar panašiai pavadintą skyrių.
    - Peržiūrėk visus matomus finansinių metų įrašus ir lenteles, neapsiribok vien naujausiais metais, jei pateikiama istorija.
-   - Pirmenybę teik pačiame Okredo profilyje rodomiems rodikliams. Jei puslapis reikalauja prisijungimo ar mokamo plano, nebandyk apeiti apribojimų: pateik tik teisėtai matomus duomenis ir aiškiai nurodyk, kuri informacija neprieinama.
-   - Jei naudodamasis naršykle negali nuskaityti dinamiškai įkelto turinio, pabandyk atidaryti profilio finansų skiltį tiesiogiai, palaukti kol ji įsikels ir peržiūrėti lenteles. Jei vis tiek nepavyksta, aiškiai pasakyk, kad duomenų patikrinti nepavyko; neišgalvok rodiklių.
+   - Jei puslapis reikalauja prisijungimo ar mokamo plano, nebandyk apeiti apribojimų: pateik tik teisėtai matomus duomenis ir aiškiai nurodyk, kuri informacija neprieinama.
+   - Jei naršykle nepavyksta nuskaityti dinamiškai įkelto turinio, pabandyk atidaryti profilio finansų skiltį tiesiogiai ir palaukti, kol ji įsikels. Jei vis tiek nepavyksta, aiškiai nurodyk, kad duomenų patikrinti nepavyko; neišgalvok rodiklių.
 
 3. **Ištrauk ir patikrink duomenis.**
-   - Kiekvienam rodikliui išsaugok reikšmę, matavimo vienetą/valiutą ir finansinius metus.
-   - Jei rodoma, surink: pardavimo pajamas (apyvartą), pelną prieš apmokestinimą, grynąjį pelną (nuostolį), turtą, nuosavą kapitalą, įsipareigojimus, pinigų srautus, pelningumo rodiklius ir kitus aiškiai pateiktus finansinius rodiklius.
-   - Atskirai pažymėk, ar reikšmė yra tiesiogiai Okredo pateiktas rodiklis, ar išvestas skaičiavimas. Nedubliuok skirtingų pavadinimų rodiklių taip, lyg jie būtų tas pats.
+   - Kiekvienam rodikliui išsaugok reikšmę, matavimo vienetą / valiutą ir finansinius metus.
+   - Surink tuos rodiklius, kurie iš tikrųjų rodomi, pavyzdžiui: pardavimo pajamas, pelną prieš apmokestinimą, grynąjį pelną ar nuostolį, turtą, nuosavą kapitalą, įsipareigojimus, pinigų srautus, pelningumo rodiklius ir kitus finansų skiltyje nurodytus duomenis.
+   - Atskirai pažymėk, kurie skaičiai pateikti tiesiogiai Okredo, o kurie (jei vartotojas aiškiai paprašo) yra paprastai apskaičiuoti. Nedubliuok skirtingų pavadinimų rodiklių taip, lyg jie būtų tas pats.
    - Patikrink, kad metai ir valiuta atitiktų stulpelių antraštes. Išlaikyk neigiamas reikšmes ir nurodyk, jei reikšmės trūksta, pateikta „–“ ar rodiklis nerodomas.
-   - Neskaičiuok trūkstamų duomenų kaip nulio. Neapskaičiuok rodiklių, jei nėra visų reikalingų įvesties reikšmių.
-   - Jei skaičiuoji pokytį tarp metų, nurodyk formulę ir palyginamus metus. Procentinio pokyčio nepateik, jei bazinė reikšmė lygi nuliui arba dėl ženklo pasikeitimo rezultatas būtų klaidinantis.
+   - Neskaičiuok trūkstamų duomenų kaip nulio. Neatspėk reikšmių.
 
-4. **Parenk veiklos apžvalgą.**
-   - Apibendrink pajamų, pelno ir kitų svarbiausių prieinamų rodiklių tendencijas per pateiktus metus.
-   - Aiškiai atskirk faktus nuo interpretacijos. Nevadink įmonės finansiškai stabilia ar rizikinga vien pagal vieną skaičių; paaiškink, kokie duomenys pagrindžia pastebėjimą.
-   - Jei pajamos auga, bet pelnas mažėja (ar atvirkščiai), tai aiškiai paminėk. Pažymėk nuostolingus metus, staigius pokyčius ir trūkstamus finansinių metų duomenis.
-   - Neteik investavimo, kredito suteikimo ar teisinių sprendimų kaip garantuotų išvadų. Tai informacinė finansinių duomenų apžvalga, o ne auditas ar profesionali konsultacija.
+## Išvesties formatas
 
-5. **Pateik atsakymą su šaltiniu.**
-   - Atsakyk lietuviškai, nebent vartotojas paprašė kitos kalbos.
-   - Įtrauk tiesioginę Okredo įmonės profilio nuorodą, prieigos datą ir aiškiai įvardyk naujausius rastus finansinius metus.
-   - Nepridėk jokių skaičių, kurių negali pagrįsti atidarytu puslapiu ar jo lentelėmis.
+Pateik struktūruotą, faktinį duomenų rinkinį, kurį galėtų naudoti kitas įgūdis:
 
-## Atsakymo formatas
+- **Įmonės pavadinimas**
+- **Įmonės kodas**
+- **Okredo profilio URL**
+- **Patikrinimo data**
+- **Naujausi rasti finansiniai metai**
+- **Finansiniai rodikliai:** lentelė su rodiklio pavadinimu, finansiniais metais, reikšme, valiuta / vienetu ir šaltinio pastaba.
+- **Duomenų ribotumai:** neprieinami metai ar rodikliai, mokamos prieigos ribojimai, neaiškūs laukai.
 
-# [Įmonės pavadinimas] — veiklos apžvalga
+Nerašyk veiklos tendencijų interpretacijos, rizikos vertinimo, trumpos finansinės išvados ar galutinės veiklos apžvalgos. Jei vartotojas prašo visos apžvalgos, surink duomenis ir perduok juos analizei įgūdžiui `veiklos-apzvalga-analize`.
 
-- **Įmonės kodas:** [kodas]
-- **Šaltinis:** [Okredo profilio nuoroda]
-- **Patikrinta:** [data]
-- **Naujausi rasti finansiniai metai:** [metai]
+## Patikimumo taisyklės
 
-## Finansiniai rodikliai
-
-Pateik lentelę, kai prieinami bent keli rodikliai:
-
-| Rodiklis | Naujausi metai | Ankstesni metai | Pastaba |
-|---|---:|---:|---|
-| Pajamos / pardavimo pajamos | ... | ... | ... |
-| Pelnas prieš apmokestinimą | ... | ... | ... |
-| Grynasis pelnas (nuostolis) | ... | ... | ... |
-| Turtas / nuosavas kapitalas / įsipareigojimai | ... | ... | jei pateikta |
-| Kiti Okredo rodomi rodikliai | ... | ... | jei aktualu |
-
-Praleisk lentelės eilutes, kurioms duomenų nėra, ir vietoj jų trumpai nurodyk, kad šie duomenys viešai nematomi arba neprieinami. Metus ir valiutą visada nurodyk aiškiai.
-
-## Veiklos tendencijos
-
-- **Pajamos:** [tendencija pagal faktinius metus]
-- **Pelningumas:** [tendencija pagal faktinius metus]
-- **Kiti pastebėjimai:** [pagrįsti duomenimis]
-- **Duomenų ribotumai:** [trūkstami metai, prisijungimo apribojimai ir pan.]
-
-## Trumpa išvada
-
-Pateik 2–4 sakinių neutralią santrauką, atskirdamas duomenis nuo interpretacijos.
-
-## Elgesys, kai duomenų nepakanka
-
-Jei įmonės nepavyko rasti arba finansų skiltis nepasiekiama, nurodyk, ką tiksliai pavyko patikrinti, pridėk naudotą paieškos / profilio nuorodą, jei ją turi, ir paprašyk įmonės kodo arba prieigos. Neužpildyk spragų kitų įmonių duomenimis ar spėjimais.
+Jei įmonės nepavyko patikimai identifikuoti arba finansų skiltis nepasiekiama, nurodyk, ką pavyko patikrinti, pridėk šaltinio nuorodą, jei ją turi, ir paprašyk patikslinimo arba prieigos. Nenaudok kitos įmonės duomenų vietoje trūkstamų duomenų.
