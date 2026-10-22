@@ -1,0 +1,23 @@
+{
+  "skill_name": "veiklos-imones-analize",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Atlik visą veiklos įmonės analizę įmonei, kurios pavadinimą pateikiu: UAB Example.",
+      "expected_output": "Vykdo tris etapus nustatyta seka: pirmiausia identifikuoja įmonę ir surenka Okredo rodiklius, tada analizuoja tik surinktus duomenis, galiausiai pateikia struktūruotą santrauką su išvadomis ir šaltiniu. Jei įmonės patvirtinti nepavyksta, sustoja ir prašo patikslinti.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Pateik veiklos įmonės analizę. Okredo finansų skiltis dalinai neprieinama, bet yra du paskutinių metų pajamų duomenys.",
+      "expected_output": "Pažymi prieigos apribojimus, analizuoja tik patikrintus prieinamus duomenis, nekuria pelno ar kitų trūkstamų rodiklių ir pateikia ribotos apimties išvadą.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Pateik galutinę įmonės analizę, bet surinkti duomenys ir analizės rezultatas skiriasi dėl 2024 m. grynojo pelno.",
+      "expected_output": "Pastebi duomenų ir analizės neatitikimą, nepaslepia jo galutinėje santraukoje ir nurodo patikrinti pirminį Okredo šaltinį prieš tvirtinant išvadą.",
+      "files": []
+    }
+  ]
+}
